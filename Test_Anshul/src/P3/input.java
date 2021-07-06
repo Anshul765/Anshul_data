@@ -30,7 +30,7 @@ public class input {
 		int[] arr = new int[3];
 		
 		for(int i=0;i<arr.length;i++) {
-			System.out.println("Enter the " + (i+1) + " value");
+			System.out.println("Please Enter the " + (i+1) + " value");
 			arr[i] = sc.nextInt();
 			System.out.println(arr[i]);
 		}
